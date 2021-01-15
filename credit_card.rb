@@ -7,4 +7,4 @@ def mask(length)
 end
 
 puts mask("#{length}")
-
+c
