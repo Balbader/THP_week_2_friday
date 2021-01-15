@@ -1,9 +1,6 @@
+puts "YOUSSEF CODE"
 puts "Hello, please type a word and we'll give you the middle letters of that word"
 Answer = gets.chomp.to_s
-
-# count string#
-# even ? odd ?#
-# puts midde"
 
 def count_string
   if Answer.length.even?
