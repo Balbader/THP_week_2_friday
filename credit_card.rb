@@ -1,16 +1,10 @@
-str = gets.chomp
+print ">"
+length = gets.chomp.to_i
 
-i = 0
-count = 0
-while str[i]
-  print str[i].replace "#" 
-  if str.length - count == 4
-    while str[i]
-      print str[i]
-      i += 1
-    end
-  end
-  i += 1
-  count += 1
+def mask(length)
+    length[0..-5] = '#' * (length.length - 4)
+    length
 end
+
+puts mask("#{length}")
 
